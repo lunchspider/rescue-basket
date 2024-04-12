@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { museo } from "@/font";
-
+import { museo, poppins } from "@/font";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={museo.className}>{children}</body>
+      <body className={poppins.className}>{children}</body>
     </html>
   );
 }
