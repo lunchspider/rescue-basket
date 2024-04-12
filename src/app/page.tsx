@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
-    <main className=" text-center papa bg-[url('/bg.png')] bg-center bg-cover bg-repeat-y ">
+    <main className=" text-center papa bg-[url('/bg.png')] bg-center bg-cover bg-repeat-y pt-20">
       <Navbar />
       <div className="h-[60vh] items-center flex justify-center relative ">
         <div className={`${museo.className} space-y-5 relative`}>
@@ -39,7 +39,7 @@ export default function Home() {
         />
       </div>
       <div className="flex justify-center">
-        <div className="flex space-x-10">
+        <div className="flex space-x-20">
           <Image src={"/trash1.svg"} height={400} width={200} alt="trash" />
           <Image src={"/trash2.svg"} height={400} width={200} alt="trash" />
         </div>
