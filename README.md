@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Rescue Basket
 
-## Getting Started
+## Problem Statement
 
-First, run the development server:
+Food waste remains a pressing global concern, with an estimated one-third of all food produced being wasted. This leads to financial losses for businesses and significant environmental impact. Traditional methods of handling approaching-expiry food items often involve discarding them, creating missed opportunities for consumer savings and further financial loss for businesses.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Proposed Solution
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+*Rescue Basket* is a web and mobile application that tackles food waste and bridges the gap between businesses and cost-conscious consumers through intelligent inventory management and automated rescue basket creation.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Automated Inventory Tracking and Expiry Monitoring:** Seamlessly integrates with existing point-of-sale (POS) systems to track inventory levels and expiry dates in real-time.
+- **Dynamic "Rescue Basket" Creation:** Automatically generates rescue baskets containing discounted items as approaching-expiry items reach pre-set thresholds.
+- **User-Friendly Marketplace:** Allows users to browse and purchase rescue baskets directly through the app, featuring clear information on contents, discounted price, store location, and environmental impact.
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js:** For building the web application with server-side rendering.
+- **PostgreSQL:** Database for storing inventory and user information.
+- **Vercel:** Deployment platform for hosting the application.
+- **Tailwind CSS:** Utility-first CSS framework for styling.
+- **DrizzleORM:** Object-Relational Mapping (ORM) library for database interactions.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Benefits
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Reduced Food Waste and Increased Revenue:** Minimizes food waste for businesses and offers discounted items to consumers, leading to cost savings and increased revenue.
+- **Discounted Groceries and Sustainable Consumption:** Provides high-quality food items at reduced prices, promoting responsible food consumption practices.
+- **Sustainability and Environmental Impact:** Raises awareness of responsible consumption habits and reduces the environmental impact of the food industry.
 
-## Deploy on Vercel
+## Additional Considerations
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Loyalty Programs:** Encourages user retention with additional discounts or exclusive access to rescue baskets.
+- **Geolocation Features:** Enables users to find nearby rescue baskets for optimal convenience.
+- **Partnership Opportunities:** Collaborates with food banks or charities to donate leftover items nearing expiry.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Installation
+
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Set up PostgreSQL database and configure connection.
+4. Run the development server with `npm run dev`.
