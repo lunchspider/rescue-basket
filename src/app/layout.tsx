@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
-import { MuseoModerno } from "next/font/google";
 import "./globals.css";
+import { museo } from "@/font";
 
-const museo = MuseoModerno({ subsets: ["latin"], display: 'swap', variable: '--font-musero-moderno' });
 
 export const metadata: Metadata = {
   title: "Create Next App",
